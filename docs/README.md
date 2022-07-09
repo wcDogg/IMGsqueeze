@@ -9,9 +9,6 @@
 ## Python Docs
 
 * [Pillow](https://pillow.readthedocs.io/en/stable/index.html)
-* [NumPy](https://numpy.org/)
-* [pylibtiff](https://github.com/pearu/pylibtiff)
 * [imagequant](https://giters.com/wanadev/imagequant-python)
 * [typer](https://typer.tiangolo.com/)
 * [rich](https://rich.readthedocs.io/en/stable/index.html)
-
