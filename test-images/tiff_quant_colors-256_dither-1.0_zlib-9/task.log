@@ -1,0 +1,147 @@
+====================================================
+TASK SUMMARY
+task: quant_colors-256_dither-1.0_zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\tiff
+dir_save: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 03:02:30
+time_stop: 2022-07-09 03:02:35
+time_elapsed: 0:00:05
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 0
+----------------------------------------------------
+FILES FOUND
+alfred-schrock-shoE2y51uX0-unsplash.tiff
+bruna-branco-7r1HxvVC7AY-unsplash.tiff
+gigi-F5KCP7qZL50-unsplash.tiff
+jake-nackos-HjpNeUD8qdw-unsplash.tiff
+james-yarema-P2X7NDx_GP0-unsplash.tiff
+----------------------------------------------------
+FILES PROCESSED
+alfred-schrock-shoE2y51uX0-unsplash.tiff
+bruna-branco-7r1HxvVC7AY-unsplash.tiff
+gigi-F5KCP7qZL50-unsplash.tiff
+jake-nackos-HjpNeUD8qdw-unsplash.tiff
+james-yarema-P2X7NDx_GP0-unsplash.tiff
+----------------------------------------------------
+MB SUMMARY
+mb_in: 32.83
+mb_out: 10.95
+mb_change: -21.88
+mb_change_percent: -66.65
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: alfred-schrock-shoE2y51uX0-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\alfred-schrock-shoE2y51uX0-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\alfred-schrock-shoE2y51uX0-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: P
+width_in: 1800
+height_in: 1425
+px_in: 2565000
+width_out: 1800
+height_out: 1425
+px_out: 2565000
+mb_in: 7.339168548583984
+mb_out: 2.4477672576904297
+mb_change: -4.89
+mb_change_percent: -66.64789422007891
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: bruna-branco-7r1HxvVC7AY-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\bruna-branco-7r1HxvVC7AY-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\bruna-branco-7r1HxvVC7AY-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: P
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 1200
+height_out: 1800
+px_out: 2160000
+mb_in: 6.180454254150391
+mb_out: 2.0615291595458984
+mb_change: -4.12
+mb_change_percent: -66.64437475349794
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gigi-F5KCP7qZL50-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\gigi-F5KCP7qZL50-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\gigi-F5KCP7qZL50-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: P
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 1200
+height_out: 1800
+px_out: 2160000
+mb_in: 6.180454254150391
+mb_out: 2.0615291595458984
+mb_change: -4.12
+mb_change_percent: -66.64437475349794
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: jake-nackos-HjpNeUD8qdw-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\jake-nackos-HjpNeUD8qdw-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\jake-nackos-HjpNeUD8qdw-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: P
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 1200
+height_out: 1800
+px_out: 2160000
+mb_in: 6.180454254150391
+mb_out: 2.0615291595458984
+mb_change: -4.12
+mb_change_percent: -66.64437475349794
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: james-yarema-P2X7NDx_GP0-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\james-yarema-P2X7NDx_GP0-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_quant_colors-256_dither-1.0_zlib-9\james-yarema-P2X7NDx_GP0-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: P
+width_in: 1800
+height_in: 1350
+px_in: 2430000
+width_out: 1800
+height_out: 1350
+px_out: 2430000
+mb_in: 6.952930450439453
+mb_out: 2.319021224975586
+mb_change: -4.63
+mb_change_percent: -66.64685140307978
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

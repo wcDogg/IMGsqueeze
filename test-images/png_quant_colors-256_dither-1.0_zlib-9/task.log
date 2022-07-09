@@ -1,0 +1,151 @@
+====================================================
+TASK SUMMARY
+task: quant_colors-256_dither-1.0_zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\png
+dir_save: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 02:55:14
+time_stop: 2022-07-09 02:56:47
+time_elapsed: 0:01:32
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 2
+----------------------------------------------------
+FILES FOUND
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+FILES PROCESSED
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+MB SUMMARY
+mb_in: 19.62
+mb_out: 23.6
+mb_change: 3.98
+mb_change_percent: 20.29
+----------------------------------------------------
+FILES WITH INCREASED MB
+gradient_conical_color_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: 01.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\01.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\01.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: P
+width_in: 2700
+height_in: 1398
+px_in: 3774600
+width_out: 2700
+height_out: 1398
+px_out: 3774600
+mb_in: 5.24897575378418
+mb_out: 1.683786392211914
+mb_change: -3.57
+mb_change_percent: -67.92161992750661
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_color_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_color_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\gradient_conical_color_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: P
+width_in: 8751
+height_in: 8751
+px_in: 76580001
+width_out: 8751
+height_out: 8751
+px_out: 76580001
+mb_in: 3.7750282287597656
+mb_out: 4.1354570388793945
+mb_change: 0.36
+mb_change_percent: 9.547711653484583
+mb_warn: True
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_gray_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_gray_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\gradient_conical_gray_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: P
+width_in: 8750
+height_in: 8751
+px_in: 76571250
+width_out: 8750
+height_out: 8751
+px_out: 76571250
+mb_in: 3.827691078186035
+mb_out: 2.1519699096679688
+mb_change: -1.68
+mb_change_percent: -43.77890311127721
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_freeform_color_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_freeform_color_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\gradient_freeform_color_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: P
+width_in: 10001
+height_in: 10000
+px_in: 100010000
+width_out: 10001
+height_out: 10000
+px_out: 100010000
+mb_in: 6.542703628540039
+mb_out: 15.544868469238281
+mb_change: 9.0
+mb_change_percent: 137.5909005174825
+mb_warn: True
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: transparent_squares_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\transparent_squares_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_quant_colors-256_dither-1.0_zlib-9\transparent_squares_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: P
+width_in: 7500
+height_in: 7500
+px_in: 56250000
+width_out: 7500
+height_out: 7500
+px_out: 56250000
+mb_in: 0.2266244888305664
+mb_out: 0.08538818359375
+mb_change: -0.14
+mb_change_percent: -62.32173140935813
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

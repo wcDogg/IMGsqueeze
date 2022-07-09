@@ -1,0 +1,147 @@
+====================================================
+TASK SUMMARY
+task: down_algo-1_width-800_height-700_zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\png
+dir_save: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 03:05:52
+time_stop: 2022-07-09 03:05:57
+time_elapsed: 0:00:05
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 0
+----------------------------------------------------
+FILES FOUND
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+FILES PROCESSED
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+MB SUMMARY
+mb_in: 19.62
+mb_out: 0.81
+mb_change: -18.81
+mb_change_percent: -95.89
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: 01.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\01.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\01.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 2700
+height_in: 1398
+px_in: 3774600
+width_out: 800
+height_out: 414
+px_out: 331200
+mb_in: 5.24897575378418
+mb_out: 0.5100278854370117
+mb_change: -4.74
+mb_change_percent: -90.28328745718984
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_color_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_color_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\gradient_conical_color_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 8751
+height_in: 8751
+px_in: 76580001
+width_out: 700
+height_out: 700
+px_out: 490000
+mb_in: 3.7750282287597656
+mb_out: 0.08811187744140625
+mb_change: -3.69
+mb_change_percent: -97.66592798511724
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_gray_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_gray_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\gradient_conical_gray_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 8750
+height_in: 8751
+px_in: 76571250
+width_out: 699
+height_out: 700
+px_out: 489300
+mb_in: 3.827691078186035
+mb_out: 0.094451904296875
+mb_change: -3.73
+mb_change_percent: -97.53240524463546
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_freeform_color_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_freeform_color_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\gradient_freeform_color_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 10001
+height_in: 10000
+px_in: 100010000
+width_out: 700
+height_out: 700
+px_out: 490000
+mb_in: 6.542703628540039
+mb_out: 0.1108541488647461
+mb_change: -6.43
+mb_change_percent: -98.30568286203295
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: transparent_squares_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\transparent_squares_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_down_algo-1_width-800_height-700_zlib-9\transparent_squares_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 7500
+height_in: 7500
+px_in: 56250000
+width_out: 700
+height_out: 700
+px_out: 490000
+mb_in: 0.2266244888305664
+mb_out: 0.003284454345703125
+mb_change: -0.22
+mb_change_percent: -98.55070634129098
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

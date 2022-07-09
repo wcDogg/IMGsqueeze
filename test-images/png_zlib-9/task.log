@@ -1,0 +1,150 @@
+====================================================
+TASK SUMMARY
+task: zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\png
+dir_save: D:\GitHub\IMGsqueeze\test-images\png_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 02:50:17
+time_stop: 2022-07-09 02:50:58
+time_elapsed: 0:00:41
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 1
+----------------------------------------------------
+FILES FOUND
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+FILES PROCESSED
+01.png
+gradient_conical_color_circle_300dpi.png
+gradient_conical_gray_circle_300dpi.png
+gradient_freeform_color_300dpi.png
+transparent_squares_300dpi.png
+----------------------------------------------------
+MB SUMMARY
+mb_in: 19.62
+mb_out: 16.94
+mb_change: -2.68
+mb_change_percent: -13.66
+----------------------------------------------------
+FILES WITH INCREASED MB
+01.png
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: 01.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\01.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\01.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 2700
+height_in: 1398
+px_in: 3774600
+width_out: 2700
+height_out: 1398
+px_out: 3774600
+mb_in: 5.24897575378418
+mb_out: 5.321036338806152
+mb_change: 0.07
+mb_change_percent: 1.3728504074346688
+mb_warn: True
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_color_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_color_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\gradient_conical_color_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 8751
+height_in: 8751
+px_in: 76580001
+width_out: 8751
+height_out: 8751
+px_out: 76580001
+mb_in: 3.7750282287597656
+mb_out: 3.0669002532958984
+mb_change: -0.71
+mb_change_percent: -18.758216695415626
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_conical_gray_circle_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_conical_gray_circle_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\gradient_conical_gray_circle_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 8750
+height_in: 8751
+px_in: 76571250
+width_out: 8750
+height_out: 8751
+px_out: 76571250
+mb_in: 3.827691078186035
+mb_out: 3.2973012924194336
+mb_change: -0.53
+mb_change_percent: -13.856650783269487
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gradient_freeform_color_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\gradient_freeform_color_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\gradient_freeform_color_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 10001
+height_in: 10000
+px_in: 100010000
+width_out: 10001
+height_out: 10000
+px_out: 100010000
+mb_in: 6.542703628540039
+mb_out: 5.02889347076416
+mb_change: -1.51
+mb_change_percent: -23.13737934227163
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: transparent_squares_300dpi.png
+path_in: D:\GitHub\IMGsqueeze\test-images\png\transparent_squares_300dpi.png
+path_out: D:\GitHub\IMGsqueeze\test-images\png_zlib-9\transparent_squares_300dpi.png
+format_in: PNG
+mode_in: RGBA
+format_out: PNG
+mode_out: RGBA
+width_in: 7500
+height_in: 7500
+px_in: 56250000
+width_out: 7500
+height_out: 7500
+px_out: 56250000
+mb_in: 0.2266244888305664
+mb_out: 0.2259683609008789
+mb_change: -0.0
+mb_change_percent: -0.28952207816253406
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

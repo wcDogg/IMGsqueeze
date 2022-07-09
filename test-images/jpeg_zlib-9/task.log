@@ -1,0 +1,147 @@
+====================================================
+TASK SUMMARY
+task: zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\jpeg
+dir_save: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 02:48:59
+time_stop: 2022-07-09 02:49:00
+time_elapsed: 0:00:01
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 0
+----------------------------------------------------
+FILES FOUND
+alfred-schrock-shoE2y51uX0-unsplash.jpg
+bruna-branco-7r1HxvVC7AY-unsplash.jpg
+gigi-F5KCP7qZL50-unsplash.jpg
+jake-nackos-HjpNeUD8qdw-unsplash.jpg
+james-yarema-P2X7NDx_GP0-unsplash.jpg
+----------------------------------------------------
+FILES PROCESSED
+alfred-schrock-shoE2y51uX0-unsplash.jpg
+bruna-branco-7r1HxvVC7AY-unsplash.jpg
+gigi-F5KCP7qZL50-unsplash.jpg
+jake-nackos-HjpNeUD8qdw-unsplash.jpg
+james-yarema-P2X7NDx_GP0-unsplash.jpg
+----------------------------------------------------
+MB SUMMARY
+mb_in: 15.01
+mb_out: 11.56
+mb_change: -3.45
+mb_change_percent: -22.97
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: alfred-schrock-shoE2y51uX0-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\alfred-schrock-shoE2y51uX0-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\alfred-schrock-shoE2y51uX0-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 4607
+height_in: 3648
+px_in: 16806336
+width_out: 4607
+height_out: 3648
+px_out: 16806336
+mb_in: 1.4553642272949219
+mb_out: 1.1290979385375977
+mb_change: -0.33
+mb_change_percent: -22.41818801357745
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: bruna-branco-7r1HxvVC7AY-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\bruna-branco-7r1HxvVC7AY-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\bruna-branco-7r1HxvVC7AY-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 3104
+height_in: 4656
+px_in: 14452224
+width_out: 3104
+height_out: 4656
+px_out: 14452224
+mb_in: 2.9107370376586914
+mb_out: 2.1487579345703125
+mb_change: -0.76
+mb_change_percent: -26.178218548429626
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gigi-F5KCP7qZL50-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\gigi-F5KCP7qZL50-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\gigi-F5KCP7qZL50-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 4160
+height_in: 6240
+px_in: 25958400
+width_out: 4160
+height_out: 6240
+px_out: 25958400
+mb_in: 4.325201034545898
+mb_out: 3.5580291748046875
+mb_change: -0.77
+mb_change_percent: -17.7372532193005
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: jake-nackos-HjpNeUD8qdw-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\jake-nackos-HjpNeUD8qdw-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\jake-nackos-HjpNeUD8qdw-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 3840
+height_in: 5760
+px_in: 22118400
+width_out: 3840
+height_out: 5760
+px_out: 22118400
+mb_in: 2.966580390930176
+mb_out: 2.196721076965332
+mb_change: -0.77
+mb_change_percent: -25.951068655296183
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: james-yarema-P2X7NDx_GP0-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\james-yarema-P2X7NDx_GP0-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_zlib-9\james-yarema-P2X7NDx_GP0-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 5000
+height_in: 3750
+px_in: 18750000
+width_out: 5000
+height_out: 3750
+px_out: 18750000
+mb_in: 3.350278854370117
+mb_out: 2.5278244018554688
+mb_change: -0.82
+mb_change_percent: -24.54883573174321
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

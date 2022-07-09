@@ -1,0 +1,147 @@
+====================================================
+TASK SUMMARY
+task: down_algo-1_width-800_height-700_zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\tiff
+dir_save: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 03:06:20
+time_stop: 2022-07-09 03:06:20
+time_elapsed: 0:00:00
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 0
+----------------------------------------------------
+FILES FOUND
+alfred-schrock-shoE2y51uX0-unsplash.tiff
+bruna-branco-7r1HxvVC7AY-unsplash.tiff
+gigi-F5KCP7qZL50-unsplash.tiff
+jake-nackos-HjpNeUD8qdw-unsplash.tiff
+james-yarema-P2X7NDx_GP0-unsplash.tiff
+----------------------------------------------------
+FILES PROCESSED
+alfred-schrock-shoE2y51uX0-unsplash.tiff
+bruna-branco-7r1HxvVC7AY-unsplash.tiff
+gigi-F5KCP7qZL50-unsplash.tiff
+jake-nackos-HjpNeUD8qdw-unsplash.tiff
+james-yarema-P2X7NDx_GP0-unsplash.tiff
+----------------------------------------------------
+MB SUMMARY
+mb_in: 32.83
+mb_out: 5.63
+mb_change: -27.21
+mb_change_percent: -82.87
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: alfred-schrock-shoE2y51uX0-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\alfred-schrock-shoE2y51uX0-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\alfred-schrock-shoE2y51uX0-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: RGB
+width_in: 1800
+height_in: 1425
+px_in: 2565000
+width_out: 800
+height_out: 633
+px_out: 506400
+mb_in: 7.339168548583984
+mb_out: 1.4494667053222656
+mb_change: -5.89
+mb_change_percent: -80.25026001614413
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: bruna-branco-7r1HxvVC7AY-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\bruna-branco-7r1HxvVC7AY-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\bruna-branco-7r1HxvVC7AY-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: RGB
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 6.180454254150391
+mb_out: 0.9339103698730469
+mb_change: -5.25
+mb_change_percent: -84.88929241332231
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gigi-F5KCP7qZL50-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\gigi-F5KCP7qZL50-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\gigi-F5KCP7qZL50-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: RGB
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 6.180454254150391
+mb_out: 0.9339103698730469
+mb_change: -5.25
+mb_change_percent: -84.88929241332231
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: jake-nackos-HjpNeUD8qdw-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\jake-nackos-HjpNeUD8qdw-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\jake-nackos-HjpNeUD8qdw-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: RGB
+width_in: 1200
+height_in: 1800
+px_in: 2160000
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 6.180454254150391
+mb_out: 0.9339103698730469
+mb_change: -5.25
+mb_change_percent: -84.88929241332231
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: james-yarema-P2X7NDx_GP0-unsplash.tiff
+path_in: D:\GitHub\IMGsqueeze\test-images\tiff\james-yarema-P2X7NDx_GP0-unsplash.tiff
+path_out: D:\GitHub\IMGsqueeze\test-images\tiff_down_algo-1_width-800_height-700_zlib-9\james-yarema-P2X7NDx_GP0-unsplash.tiff
+format_in: TIFF
+mode_in: RGB
+format_out: TIFF
+mode_out: RGB
+width_in: 1800
+height_in: 1350
+px_in: 2430000
+width_out: 800
+height_out: 600
+px_out: 480000
+mb_in: 6.952930450439453
+mb_out: 1.3739356994628906
+mb_change: -5.58
+mb_change_percent: -80.23947299262784
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

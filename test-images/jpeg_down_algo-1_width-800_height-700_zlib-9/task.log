@@ -1,0 +1,147 @@
+====================================================
+TASK SUMMARY
+task: down_algo-1_width-800_height-700_zlib-9
+dir_proc: D:\GitHub\IMGsqueeze\test-images\jpeg
+dir_save: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9
+task_log: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\task.log
+----------------------------------------------------
+TIME SUMMARY
+time_start: 2022-07-09 03:05:36
+time_stop: 2022-07-09 03:05:37
+time_elapsed: 0:00:01
+----------------------------------------------------
+FILES SUMMARY
+files_found: 5
+files_processed: 5
+files_not_processed: 0
+files_error: 0
+files_mb_warn: 0
+----------------------------------------------------
+FILES FOUND
+alfred-schrock-shoE2y51uX0-unsplash.jpg
+bruna-branco-7r1HxvVC7AY-unsplash.jpg
+gigi-F5KCP7qZL50-unsplash.jpg
+jake-nackos-HjpNeUD8qdw-unsplash.jpg
+james-yarema-P2X7NDx_GP0-unsplash.jpg
+----------------------------------------------------
+FILES PROCESSED
+alfred-schrock-shoE2y51uX0-unsplash.jpg
+bruna-branco-7r1HxvVC7AY-unsplash.jpg
+gigi-F5KCP7qZL50-unsplash.jpg
+jake-nackos-HjpNeUD8qdw-unsplash.jpg
+james-yarema-P2X7NDx_GP0-unsplash.jpg
+----------------------------------------------------
+MB SUMMARY
+mb_in: 15.01
+mb_out: 0.39
+mb_change: -14.61
+mb_change_percent: -97.37
+----------------------------------------------------
+FILE PROCESSING RESULTS
+----------------------------------------------------
+file: alfred-schrock-shoE2y51uX0-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\alfred-schrock-shoE2y51uX0-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\alfred-schrock-shoE2y51uX0-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 4607
+height_in: 3648
+px_in: 16806336
+width_out: 800
+height_out: 633
+px_out: 506400
+mb_in: 1.4553642272949219
+mb_out: 0.06444454193115234
+mb_change: -1.39
+mb_change_percent: -95.5719303303933
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: bruna-branco-7r1HxvVC7AY-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\bruna-branco-7r1HxvVC7AY-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\bruna-branco-7r1HxvVC7AY-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 3104
+height_in: 4656
+px_in: 14452224
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 2.9107370376586914
+mb_out: 0.08323001861572266
+mb_change: -2.83
+mb_change_percent: -97.14058612856796
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: gigi-F5KCP7qZL50-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\gigi-F5KCP7qZL50-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\gigi-F5KCP7qZL50-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 4160
+height_in: 6240
+px_in: 25958400
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 4.325201034545898
+mb_out: 0.07487297058105469
+mb_change: -4.25
+mb_change_percent: -98.26891351446938
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: jake-nackos-HjpNeUD8qdw-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\jake-nackos-HjpNeUD8qdw-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\jake-nackos-HjpNeUD8qdw-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 3840
+height_in: 5760
+px_in: 22118400
+width_out: 466
+height_out: 700
+px_out: 326200
+mb_in: 2.966580390930176
+mb_out: 0.06471061706542969
+mb_change: -2.9
+mb_change_percent: -97.81867980846663
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+----------------------------------------------------
+file: james-yarema-P2X7NDx_GP0-unsplash.jpg
+path_in: D:\GitHub\IMGsqueeze\test-images\jpeg\james-yarema-P2X7NDx_GP0-unsplash.jpg
+path_out: D:\GitHub\IMGsqueeze\test-images\jpeg_down_algo-1_width-800_height-700_zlib-9\james-yarema-P2X7NDx_GP0-unsplash.jpg
+format_in: JPEG
+mode_in: RGB
+format_out: JPEG
+mode_out: RGB
+width_in: 5000
+height_in: 3750
+px_in: 18750000
+width_out: 800
+height_out: 600
+px_out: 480000
+mb_in: 3.350278854370117
+mb_out: 0.10680198669433594
+mb_change: -3.24
+mb_change_percent: -96.81214635148883
+mb_warn: None
+proc_result: Processed
+proc_msg: None
+====================================================
+Task log ready

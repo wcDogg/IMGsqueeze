@@ -75,10 +75,10 @@ py -m pip install -r requirements.txt --upgrade
 This repo contains a `test-images` directory. Here you can also view sample `task.log` files.
 
 ```
-"D:\CornDoggSoup\IMGsqueeze\test-images\jpeg" 
-"D:\CornDoggSoup\IMGsqueeze\test-images\png"
-"D:\CornDoggSoup\IMGsqueeze\test-images\tiff"
-"D:\CornDoggSoup\IMGsqueeze\test-images\other"
+IMGsqueeze\test-images\jpeg" 
+IMGsqueeze\test-images\png"
+IMGsqueeze\test-images\tiff"
+IMGsqueeze\test-images\other"
 ```
 
 ## [IMGzlib](docs/zlib.md)
@@ -90,7 +90,7 @@ py IMGzlib.py --help
 py IMGzlib.py "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # Options
-py IMGzlib.py --zlib 7 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg" 
+py IMGzlib.py --zlib 7 "D:\GitHub\IMGsqueeze\test-images\jpeg" 
 ```
 
 ## [IMGquant](docs/quantize.md)
@@ -99,10 +99,10 @@ py IMGzlib.py --zlib 7 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
 py IMGquant.py --help
 
 # Default 256 colors, 1.0 dither, 9 zlib
-py IMGquant.py "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGquant.py "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # Options
-py IMGquant.py --colors 64 --dither 0.5 --zlib 7 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGquant.py --colors 64 --dither 0.5 --zlib 7 "D:\GitHub\IMGsqueeze\test-images\jpeg"
 ```
 
 ## [IMGdown](docs/downscale.md)
@@ -111,15 +111,15 @@ py IMGquant.py --colors 64 --dither 0.5 --zlib 7 "D:\CornDoggSoup\IMGsqueeze\tes
 py IMGdown.py --help
 
 # By width, default LANCZOS, 9 zlib
-py IMGdown.py --width 800 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGdown.py --width 800 "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # By height, default LANCZOS, 9 zlib
-py IMGdown.py --height 800 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGdown.py --height 800 "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # By width + height, default LANCZOS, 9 zlib
-py IMGdown.py --width 800 --height 700 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGdown.py --width 800 --height 700 "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # By width, BICUBIC, 7 zlib
-py IMGdown.py --algo 3 --width 800 --zlib 7 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGdown.py --algo 3 --width 800 --zlib 7 "D:\GitHub\IMGsqueeze\test-images\jpeg"
 ```
 
