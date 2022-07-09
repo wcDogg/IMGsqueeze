@@ -2,9 +2,9 @@
 
 Python 3.10+ command line tools to reduce the file size of JPEG, PNG, and TIFF files in bulk. 
 
-* [Zlib lossless compression](#zlib-lossless-compression)
-* [Quantize color palette](#quantize-plus-zlib)
-* [Downscale pixel dimensions](#downscale-plus-zlib)
+* [IMGzlib](#zlib-lossless-compression) - Lossless Zlib compression
+* [IMGquant](#quantize-plus-zlib) - Reduce color palette
+* [IMGdown](#downscale-plus-zlib) - Downscale pixel dimensions
 
 I wrote IMGsqueeze for 2 broad use cases:
 
@@ -87,7 +87,7 @@ This repo contains a `test-images` directory. Here you can also view sample `tas
 py IMGzlib.py --help
 
 # Default max 9 zlib
-py IMGzlib.py "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg"
+py IMGzlib.py "D:\GitHub\IMGsqueeze\test-images\jpeg"
 
 # Options
 py IMGzlib.py --zlib 7 "D:\CornDoggSoup\IMGsqueeze\test-images\jpeg" 

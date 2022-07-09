@@ -1,9 +1,9 @@
 # IMGsqueeze Docs
 
 * [For Best Results](for-best-results.md)
-* [Zlib Compression](zlib.md)
-* [Downscale](downscale.md)
-* [Quantize](quantize.md)
+* [IMGzlib](zlib.md) - Lossless Zlib compression
+* [IMGquant](downscale.md) - Reduce color pallette
+* [IMGdown](quantize.md) - Downscale pixel dimensions
 
 
 ## Python Docs
