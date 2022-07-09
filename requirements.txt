@@ -14,6 +14,3 @@ pycparser>=2.21
 Pygments>=2.12.0
 rich>=12.4.4
 typer>=0.4.2
-# numpy>=1.22.4
-# libtiff>=0.4.2
-
