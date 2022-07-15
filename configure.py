@@ -1,6 +1,9 @@
+from pathlib import Path
+
 #
 # App 
 APP_NAME = "IMGsqueeze"
+APP_DIR = Path(__file__).parent
 APP_DESC = 'Python tools to reduce the size of JPEG, PNG, and TIFF files.'
 APP_REPO = 'https://github.com/wcDogg/IMGsqueeze'
 AUTHOR_NAME = 'wcDogg'
@@ -57,7 +60,8 @@ DOWN_HELP_WIDTH = 'The maximum width in pixels.'
 DOWN_HELP_HEIGHT = 'The maximum height in pixels.'
 
 #
-# An image is either processed or not.
+# An image is either processed, not processed, or has error.
+# Each type has associated messages. 
 PROC_TRUE = 'Processed'
 PROC_FALSE = 'Not processed'
 PROC_ERROR = 'Error'
@@ -70,6 +74,32 @@ PROC_MSG_FORMAT = 'Unsupported image format'
 PROC_MSG_SOURCE_ERROR = 'Error with source image'
 PROC_MSG_SAVED_ERROR = 'Error with saved image'
 PROC_MSG_MB_UP = 'File size increased'
+
+#
+# Logging (logger.py)
+
+# 'NOTSET' 0, 'DEBUG' 10, 'INFO' 20, 'WARNING' 30, 'ERROR' 40, 'CRITICAL' 50
+LOG_CONSOLE_LEVEL = 'DEBUG'
+# 'standard', 'complete'
+LOG_FORMAT = 'standard'
+
+LOG_DIR = APP_DIR / 'logs'
+
+LOG_FILE_INFO = APP_NAME + '_info.log'
+LOG_PATH_INFO = Path(LOG_DIR / LOG_FILE_INFO) 
+
+LOG_FILE_DEBUG = APP_NAME + '_debug.log'
+LOG_PATH_DEBUG = Path(LOG_DIR / LOG_FILE_DEBUG) 
+
+LOG_FILE_WARN = APP_NAME + '_warning.log'
+LOG_PATH_WARN = Path(LOG_DIR / LOG_FILE_WARN)
+
+LOG_FILE_ERROR = APP_NAME + '_error.log'
+LOG_PATH_ERROR = Path(LOG_DIR / LOG_FILE_ERROR)
+
+LOG_FILE_CRIT = APP_NAME + '_critical.log'
+LOG_PATH_CRIT = Path(LOG_DIR / LOG_FILE_CRIT)
+
 
 #
 # ASCII art (O8)

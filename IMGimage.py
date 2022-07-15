@@ -1,9 +1,12 @@
+import logging
+log = logging.getLogger(__name__)
+
 from pathlib import Path
 from PIL import Image
 from rich import print
 
 import configure
-import msgs
+from helpers import msgs
 
 
 class IMGimage:

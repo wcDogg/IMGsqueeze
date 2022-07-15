@@ -1,3 +1,6 @@
+import logging
+log = logging.getLogger(__name__)
+
 import inspect
 from pathlib import Path
 from PIL import Image
@@ -10,7 +13,7 @@ warnings.filterwarnings("ignore", category=Image.DecompressionBombWarning)
 from IMGsqueeze import IMGsqueeze
 from IMGimage import IMGimage
 import configure
-import msgs
+from helpers import msgs
 
 
 class IMGdown(IMGsqueeze):
@@ -217,6 +220,13 @@ def main(
     print(f'[red]{msgs.down_error_px}')
     raise typer.Exit()
 
+  # Logging
+  import logging
+  from helpers import logger
+  logger.setup_logging()
+  log = logging.getLogger(__name__)
+
+  # Hello + confirmation
   hello()
   typer.echo(f'directory {directory}')
   typer.echo(f'--algo {algo}')
@@ -233,6 +243,7 @@ def main(
       print(msgs.hr)
       raise typer.Exit()
 
+  # Start
   print(f'Starting task. [red]{msgs.task_stop}')
   task = IMGdown(directory, algo, width, height, zlib)
 

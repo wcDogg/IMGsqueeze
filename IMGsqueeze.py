@@ -1,11 +1,14 @@
+import logging
+log = logging.getLogger(__name__)
+
 import filetype
 from os import listdir
 from pathlib import Path
 from rich import print
 
 import configure
-import msgs
-from TaskTimer import TaskTimer
+from helpers import msgs
+from helpers.TaskTimer import TaskTimer
 
 
 class IMGsqueeze:

@@ -1,3 +1,6 @@
+import logging
+log = logging.getLogger(__name__)
+
 import imagequant
 import inspect
 from pathlib import Path
@@ -11,7 +14,7 @@ warnings.filterwarnings("ignore", category=Image.DecompressionBombWarning)
 from IMGsqueeze import IMGsqueeze
 from IMGimage import IMGimage
 import configure
-import msgs
+from helpers import msgs
 
 
 class IMGquant(IMGsqueeze):
@@ -159,6 +162,13 @@ def main(
 ):
   '''Quantize JPEG, PNG, and TIFF. Optional Zlib compression.
   '''
+  # Logging
+  import logging
+  from helpers import logger
+  logger.setup_logging()
+  log = logging.getLogger(__name__)
+
+  # Hello + confirm
   hello()
   typer.echo(f"directory {directory}")
   typer.echo(f"--colors {colors}")
@@ -172,6 +182,7 @@ def main(
       print(msgs.hr)
       raise typer.Exit()
 
+  # Start
   print(f'Starting task. [red]{msgs.task_stop}')
   task = IMGquant(directory, colors, dither, zlib)
 
