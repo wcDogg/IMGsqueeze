@@ -15,6 +15,7 @@ class IMGsqueeze:
   '''Bulk process JPEG, PNG, and TIFF to reduce file size. 
   '''
   def __init__(self):
+    log.debug('Start')
 
     self.task: str = None
     self.dir_proc: Path = None
@@ -34,33 +35,42 @@ class IMGsqueeze:
     self.mb_summary = {}
     self.files_results = []
 
+    log.debug('End')
+
   #
   # Pre-flight methods
   def preflight(self):
     '''Runs all of the pre-flight methods.
     Returns bool indicating if file processing can continue.
     '''
+    log.debug('Start')
+
     if not self.get_files():
+      log.debug('End: False')
       return False
 
     self.set_paths()
 
     if not self.prep_dir_save():
+      log.debug('End: False')
       return False
 
     self.prep_task_log()
     self.timer_start()
+    log.debug('End: True')
     return True
 
   def get_files(self):
     '''Gathers a list of JPEG, PNG, and TIFF files in dir_proc.
     Returns bool indicating if there are images to process.
     '''
+    log.debug('Start')
     print(msgs.hr)
     print(f'{msgs.files_start}')
 
     if not listdir(self.dir_proc):
       print(f'[yellow]{msgs.files_false}')
+      log.debug('End: False: No files found')
       return False
 
     temp = []
@@ -75,15 +85,18 @@ class IMGsqueeze:
 
     if not temp:
       print(f'[yellow]{msgs.files_false}')
+      log.debug('End: False: No files found')
       return False
 
     self.files = temp
     print(f'[green]{len(self.files)} {msgs.files_true}')
+    log.debug(f'End: True: {len(self.files)} files found')
     return True 
   
   def set_paths(self):
     '''Sets paths to dir_save and task_log.
     '''
+    log.debug('Start')
     _proc_name = self.dir_proc.name
     _proc_parent = self.dir_proc.parent
     _save_name = _proc_name + '_' + self.task
@@ -91,10 +104,15 @@ class IMGsqueeze:
     self.dir_save = Path(_proc_parent / _save_name)
     self.task_log = Path(self.dir_save / 'task.log')
 
+    log.debug(self.dir_save)
+    log.debug(self.task_log)
+    log.debug('End')
+
   def prep_dir_save(self):
     '''Creates dir_save if it doesn't exist.
     Returns bool indicating if directory is ready for output.
     '''
+    log.debug('Start')
     print(msgs.hr)
     print(f'{msgs.dir_save_start}')
 
@@ -103,17 +121,21 @@ class IMGsqueeze:
         self.dir_save.mkdir(parents=True, exist_ok=True)
 
       print(f'[green]{self.dir_save}')
+      log.debug(f'End: True: {self.dir_save}')
       return True 
 
     except Exception as e:
       print(f'[red]{msgs.dir_save_error}')
       print(repr(e))
+      log.error('End: Error')
+      log.error(e)
       return False
 
   def prep_task_log(self):
     '''Tries to create a task.log file inside 
     dir_save if it doesn't exist.
     '''
+    log.debug('Start')
     print(msgs.hr)
     print(msgs.log_prep)
 
@@ -122,10 +144,13 @@ class IMGsqueeze:
         self.task_log.write_text(msgs.log_ready)
 
       print(f'[green]{self.task_log}')
+      log.debug(f'End: {self.task_log}')
 
-    except Exception:
+    except Exception as e:
       self.task_log = None
       print(f'[red]{msgs.log_prep_error}')
+      log.error('End: error')
+      log.error(e)
 
   #
   # Task timer
@@ -145,14 +170,17 @@ class IMGsqueeze:
   def postlfight(self):
     '''Runs all of the post-flight methods.
     '''
+    log.debug('Start')
     self.timer_stop()
     self.gather_task_data()
     self.write_log()
     self.write_console()
+    log.debug('End')
 
   def gather_task_data(self):
     ''''Assembles various task data into summary dictionaries.
     '''
+    log.debug('Start')
     print(msgs.hr)
     print(msgs.proc_end)
     print(msgs.log_gather)
@@ -200,9 +228,13 @@ class IMGsqueeze:
       percent = (((sum(mb_out)/sum(mb_in))*100)-100)
       self.mb_summary['mb_change_percent'] = round(percent, 2)
 
+    log.debug('End')
+
   def write_console(self):
     '''Writes the various task-level summaries to console.
     '''
+    log.debug('Start')
+
     # Task summary
     print(msgs.hr)
     print(f'TASK SUMMARY')
@@ -226,11 +258,16 @@ class IMGsqueeze:
     print(f'MB SUMMARY')
     for k, v in self.mb_summary.items():
       print(f'{k}: {v}')
+    
+    log.debug('End')
 
   def write_log(self):
     '''Writes the task.log file.
     '''
+    log.debug('Start')
+
     if not self.task_log:
+      log.debug('End: Task log False')
       return
 
     print(msgs.log_write)
@@ -314,10 +351,14 @@ class IMGsqueeze:
         # Append prior results
         opened.write(msgs.div_nl)
         opened.write(existing)
+      
+      log.debug('End: File written')
 
     except Exception as e:
       print(f'[red]{msgs.log_write_error}')
       print(repr(e))
+      log.error('End: error')
+      log.error(e)
 
   #
   # Endings
@@ -328,7 +369,8 @@ class IMGsqueeze:
     print('\n')
     print(msgs.hr)
     print(f'[red]{msgs.task_stopped}')
-    print(msgs.div)    
+    print(msgs.div) 
+    log.debug('Goodbye stopped')   
 
   def error(self, error):
     '''Famous last words.
@@ -339,11 +381,13 @@ class IMGsqueeze:
     print(msgs.hr)
     print(f'[red]{msgs.task_error}')
     print(msgs.div)
+    log.debug('Goodbye error')
 
   def goodbye(self):
     '''Famous last words.
     '''
     print(msgs.hr)
     print(f'[green]{msgs.task_end}')
-    print(msgs.div)   
+    print(msgs.div) 
+    log.debug('Goodbye')  
 

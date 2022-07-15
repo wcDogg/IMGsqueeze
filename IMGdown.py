@@ -21,6 +21,7 @@ class IMGdown(IMGsqueeze):
   '''
   def __init__(self, directory, algo, width, height, zlib):
     super().__init__()
+    log.debug('Start')
 
     self.task = f'{configure.DOWN_MACH}_algo-{str(algo)}_width-{str(width)}_height-{str(height)}_zlib-{str(zlib)}'
     self.dir_proc = directory
@@ -30,14 +31,17 @@ class IMGdown(IMGsqueeze):
     self.zlib = zlib
 
     self.run()
-
+    log.debug('End')
 
   def run(self):
     '''The primary controller method for this class.
     '''
+    log.debug('Start')
+
     try: 
       if not self.preflight():
         self.goodbye()
+        log.debug('End')
         return
       self.process_images()
       self.postlfight()
@@ -45,14 +49,18 @@ class IMGdown(IMGsqueeze):
 
     except KeyboardInterrupt:
       self.stopped()
+      return
       
     except Exception as e:
       self.error(repr(e))
+      log.debug('End: Error')
+      log.error(e)
       return
 
   def process_images(self):
     '''Compress images in self.files.
     '''
+    log.debug('Start')
     print(msgs.hr)
     print(msgs.proc_start)
     print(f'[yellow]{msgs.task_stop}')
@@ -103,6 +111,7 @@ class IMGdown(IMGsqueeze):
         this.check_saved()
         this.print_results()
         self.files_results.append(this.__dict__)
+        log.debug('End: Results appended')
 
       # In case file makes it past find_files()
       except Image.UnidentifiedImageError:
@@ -110,6 +119,7 @@ class IMGdown(IMGsqueeze):
         this.proc_msg = configure.PROC_MSG_NOT_IMAGE
         this.print_results()
         self.files_results.append(this.__dict__)
+        log.debug('End: Not an image')
 
       except Exception as e:
         this.proc_result = configure.PROC_ERROR
@@ -117,32 +127,42 @@ class IMGdown(IMGsqueeze):
         print(repr(e))
         this.print_results()
         self.files_results.append(this.__dict__)
+        log.debug('End: Error')
+        log.error(e)
 
   def check_ds_pixels(self, width, height):
     '''Returns bool indicating if image is larger 
     than the downscale dimensions and should be processed.
     '''
+    log.debug('Start')
+
     # By width
     if not self.ds_height:
       if width <= self.ds_width:
+        log.debug(f'End: False: {width} width too small.')
         return False
 
     # By height
     if not self.ds_width:
       if height <= self.ds_height:
+        log.debug(f'End: False: {height} height too small.')
         return False
 
     # By both width and height
     if self.ds_width and self.ds_height:
       if width <= self.ds_width and height <= self.ds_height:
+        log.debug(f'End: False: {width} width and {height} height too small.')
         return False
 
+    log.debug(f"End: True: {width} width + {height} height")
     return True
       
   def calc_ds_dimensions(self, width, height):
     '''Per-image calculation of new width 
     and height. Returns `(w,h)` tuple. 
     '''
+    log.debug('Start')
+
     # By width
     if not self.ds_height:
       w = self.ds_width
@@ -162,6 +182,7 @@ class IMGdown(IMGsqueeze):
         h = self.ds_height
         w = int(h * width / height)
 
+    log.debug(f'End: Down {w} width + {h} height')
     return (w, h)
 
 #

@@ -21,34 +21,45 @@ class IMGzlib(IMGsqueeze):
   '''
   def __init__(self, dir_proc, zlib):
     super().__init__()
+    log.debug('Start')
 
     self.task = f'{configure.ZLIB_MACH}-{str(zlib)}'
     self.dir_proc = dir_proc
     self.zlib = zlib
 
     self.run()
+    log.debug('End')
 
   def run(self):
     '''The primary controller method for this class.
     '''
+    log.debug('Start')
+
     try: 
       if not self.preflight():
         self.goodbye()
+        log.debug('End')
         return
+
       self.process_images()
       self.postlfight()
       self.goodbye()
 
     except KeyboardInterrupt:
       self.stopped()
+      return
       
     except Exception as e:
       self.error(repr(e))
+      log.debug('End: Error')
+      log.error(e)
       return
 
   def process_images(self):
     '''Compress images in self.files.
     '''
+    log.debug('Start')
+
     print(msgs.hr)
     print(msgs.proc_start)
     print(f'[yellow]{msgs.task_stop}')
@@ -94,12 +105,15 @@ class IMGzlib(IMGsqueeze):
         this.print_results()
         self.files_results.append(this.__dict__)
 
+        log.debug('End')
+
       # In case file makes it past find_files()
       except Image.UnidentifiedImageError:
         this.proc_result = configure.PROC_ERROR
         this.proc_msg = configure.PROC_MSG_NOT_IMAGE
         this.print_results()
         self.files_results.append(this.__dict__)
+        log.debug('End: Not an image')
 
       except Exception as e:
         this.proc_result = configure.PROC_ERROR
@@ -107,7 +121,8 @@ class IMGzlib(IMGsqueeze):
         print(repr(e))
         this.print_results()
         self.files_results.append(this.__dict__)
-
+        log.debug('End: Error')
+        log.error(e)
 
 #
 # Run this puppy :)
