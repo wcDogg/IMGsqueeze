@@ -1,4 +1,4 @@
-# IMGsqueeze
+# Python IMGsqueeze
 
 Python 3.10+ command line tools to reduce the file size of JPEG, PNG, and TIFF files in bulk. 
 
